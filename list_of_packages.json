@@ -1,0 +1,27 @@
+{
+  "list": [
+    { "name": "express", "description": "module for node js" },
+    { "name": "cors", "description": "cross origin resource sharing" },
+    { "name": "mongoose", "description": "module for mongodb" },
+    {
+      "name": "dotenv",
+      "description": "for storing variables for security purposes"
+    },
+    {
+      "name": "body-parser",
+      "description": "parse request object into json format"
+    },
+    {
+      "name": "npm-run-all",
+      "description": "module to run npm scripts parallelly"
+    },
+    {
+      "name": "path",
+      "description": "module to deal with loctations"
+    },
+    {
+      "name": ".gitignore",
+      "description": "its a file and mention the name of files and folders which is used to ignore files/folders from uploading into git"
+    }
+  ]
+}
