@@ -3,6 +3,10 @@
     {
       "name": "react-router-dom",
       "description": "module for react js to create routes for pages"
+    },
+    {
+      "name": "bootstrap react-bootstrap",
+      "description": "module for react js to use components provided by bootstrap"
     }
   ],
   "server": [
