@@ -1,5 +1,11 @@
 {
-  "list": [
+  "client": [
+    {
+      "name": "react-router-dom",
+      "description": "module for react js to create routes for pages"
+    }
+  ],
+  "server": [
     { "name": "express", "description": "module for node js" },
     { "name": "cors", "description": "cross origin resource sharing" },
     { "name": "mongoose", "description": "module for mongodb" },
