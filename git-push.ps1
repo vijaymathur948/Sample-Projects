@@ -8,7 +8,7 @@ function git-push($message){
 
 git add . 
 git commit -m $message 
-git push origin main  
+git push origin master  
 
 }
 git-push -message $args[0]
