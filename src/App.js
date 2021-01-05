@@ -1,9 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import Index from "./components/index"
+import Main from "./components/main"
+import Mathur from "./components/mathur/index"
+import { BrowserRouter as Router, Route } from "react-router-dom"
+
 function App() {
   return (
     <div className='App'>
-      <Index></Index>
+      <Router>
+        <Route exact path='/' component={Main} />
+
+        <Route path='/mathur' component={Mathur} />
+      </Router>
     </div>
   )
 }
