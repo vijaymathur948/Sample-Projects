@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import logo from "../logo.svg"
 import { Card, Navbar, CardColumns, Badge } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import routerPath from "./routerPath"
+const routesList = routerPath()
 
 class main extends Component {
   constructor(props) {
@@ -20,18 +22,18 @@ class main extends Component {
           </Navbar.Brand>
         </Navbar>
         <CardColumns className='mt-3'>
-          {this.state.components.map((list, index) => (
+          {Object.keys(routesList).map((key, index) => (
             <Card bg='dark' text='white' className='text-center' key={index}>
               <Card.Body>
                 <h1>
                   <Badge variant='success'>{index + 1}</Badge>
                 </h1>
-                <Card.Title>Vijay Mathur's Projects</Card.Title>
+                <Card.Title>{key.split("/")[1]}'s Projects</Card.Title>
                 <Card.Text>
                   In this project, we can just create small web pages of the
                   websites
                 </Card.Text>
-                <Link to='/mathur' target='_target' className='btn btn-light'>
+                <Link to={key} target='_target' className='btn btn-light'>
                   Click to View Component
                 </Link>
               </Card.Body>
