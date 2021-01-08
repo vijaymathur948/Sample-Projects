@@ -1,4 +1,4 @@
-import React, { Suspense } from "react"
+import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Main from "./components/main"
@@ -10,11 +10,10 @@ function App() {
     <div className='App'>
       <Router>
         <Route exact path='/' component={Main} />
-        <Suspense fallback={<div>Loading</div>}>
-          {Object.keys(routesList).map((keys, index) => (
-            <Route key={index} exact path={keys} component={routesList[keys]} />
-          ))}
-        </Suspense>
+
+        {Object.keys(routesList).map((keys, index) => (
+          <Route key={index} exact path={keys} component={routesList[keys]} />
+        ))}
       </Router>
     </div>
   )

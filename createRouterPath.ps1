@@ -26,15 +26,14 @@ foreach($items in $list)
 }
 
 # second step
-$content= "import { lazy } from `"react`" `n"
-$content+= "const routerPath = () => { `n"
+$content= "const routerPath = () => { `n"
 $content+= "const routes = {} `n"
 
 foreach($key in $routerPath.Keys )
 {
-    $content+= "routes[`"$key`"] = lazy(() => import(`""
+    $content+= "routes[`"$key`"] = require(`""
     $content+= $routerPath[$key]
-    $content+= "`")) `n"
+    $content+= "`").default `n"
 }
 
 

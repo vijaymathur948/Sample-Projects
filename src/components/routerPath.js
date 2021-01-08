@@ -1,9 +1,7 @@
-import { lazy } from "react" 
 const routerPath = () => { 
 const routes = {} 
-routes["/get-lost/bye"] = lazy(() => import("./get-lost/bye")) 
-routes["/Neha/index"] = lazy(() => import("./Neha/index")) 
-routes["/Nishant/index"] = lazy(() => import("./Nishant/index")) 
-routes["/Mathur/index"] = lazy(() => import("./Mathur/index")) 
+routes["/Neha/index"] = require("./Neha/index").default 
+routes["/Nishant/index"] = require("./Nishant/index").default 
+routes["/Mathur/index"] = require("./Mathur/index").default 
 return routes }
 export default routerPath

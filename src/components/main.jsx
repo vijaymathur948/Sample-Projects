@@ -3,15 +3,10 @@ import logo from "../logo.svg"
 import { Card, Navbar, CardColumns, Badge } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import routerPath from "./routerPath"
+
 const routesList = routerPath()
 
 class main extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      components: Array(5).fill(0),
-    }
-  }
   render() {
     return (
       <div>
@@ -28,7 +23,10 @@ class main extends Component {
                 <h1>
                   <Badge variant='success'>{index + 1}</Badge>
                 </h1>
-                <Card.Title>{key.split("/")[1]}'s Projects</Card.Title>
+                <Card.Title>
+                  {routesList[key]?.prototype?.projectInfo()?.projectTitle}
+                  's Projects
+                </Card.Title>
                 <Card.Text>
                   In this project, we can just create small web pages of the
                   websites
