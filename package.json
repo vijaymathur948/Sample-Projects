@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prepost": "npm install",
     "build": "react-scripts build",
     "postbuild": "copy _redirects  build ",
     "test": "react-scripts test",
