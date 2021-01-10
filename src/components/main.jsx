@@ -1,15 +1,22 @@
 import React, { Component } from "react"
 import logo from "../logo.svg"
-import { Card, Navbar, CardColumns, Badge } from "react-bootstrap"
+import { Card, Navbar, CardColumns, Badge, Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import routerPath from "./routerPath"
 
 const routesList = routerPath()
 
 class main extends Component {
+  openAll() {
+    Object.keys(routesList).map((key, index) => window.open(key, key))
+  }
   render() {
     return (
       <div>
+        {/* <Button onClick={this.openAll} block>
+          OPEN
+        </Button>
+    */}
         <Navbar bg='dark' variant='dark'>
           <Navbar.Brand>
             <img alt='' src={logo} width='30' height='30' /> REACT BASED SAMPLES
