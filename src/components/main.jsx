@@ -20,7 +20,7 @@ class main extends Component {
         <Navbar bg='dark' variant='dark'>
           <Navbar.Brand>
             <img alt='' src={logo} width='30' height='30' /> REACT BASED SAMPLES
-            PROJECTS
+            PROJECTS UPDATED
           </Navbar.Brand>
         </Navbar>
         <CardColumns className='mt-3'>

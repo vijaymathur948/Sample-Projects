@@ -6,6 +6,9 @@
 
 function git-push($message){
 
+# it will build our project
+npm run build
+
 git add . 
 git commit -m $message 
 git push origin master  
