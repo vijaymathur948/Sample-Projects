@@ -20,7 +20,3 @@ yarn-debug.log*
 yarn-error.log*
 
 
-# production
-/build
-
-.gitignore-deploy
