@@ -5,6 +5,7 @@ class index extends Component {
   projectInfo() {
     return {
       projectTitle: "The Accidental Developer",
+      projectDescription: "This is the first Sample of someone's blog",
       referenceUrl:
         "https://osric.com/chris/accidental-developer/2016/04/powershell-ellipsis-dot-dot-dot/",
       developer: "Vijay Mathur",

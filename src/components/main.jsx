@@ -13,14 +13,10 @@ class main extends Component {
   render() {
     return (
       <div>
-        {/* <Button onClick={this.openAll} block>
-          OPEN
-        </Button>
-    */}
         <Navbar bg='dark' variant='dark'>
           <Navbar.Brand>
             <img alt='' src={logo} width='30' height='30' /> REACT BASED SAMPLES
-            PROJECTS UPDATED
+            PROJECTS
           </Navbar.Brand>
         </Navbar>
         <CardColumns className='mt-3'>
@@ -35,12 +31,29 @@ class main extends Component {
                   's Projects
                 </Card.Title>
                 <Card.Text>
-                  In this project, we can just create small web pages of the
-                  websites
+                  {
+                    routesList[key]?.prototype?.projectInfo()
+                      ?.projectDescription
+                  }
                 </Card.Text>
-                <Link to={key} target='_target' className='btn btn-light'>
-                  Click to View Component
-                </Link>
+                <div>
+                  <Link
+                    to={key}
+                    target='_target'
+                    className='btn btn-outline-light mr-3'
+                  >
+                    Sample Component
+                  </Link>
+                  <a
+                    href={
+                      routesList[key]?.prototype?.projectInfo()?.referenceUrl
+                    }
+                    target='_target'
+                    className='btn btn-outline-light'
+                  >
+                    Original Component
+                  </a>
+                </div>
               </Card.Body>
             </Card>
           ))}

@@ -1,28 +1,46 @@
 
+function removeEmptyDirectories($path){
+    $directories=  (get-childitem -directory -path $path | Select-Object -property Name) 
+foreach ($directory in $directories) {
+
+    #$relativeUrl= ($directory.Name).insert(0,$path)
+    $relativeUrl= $path+$directory.Name
+    # content inside directory is empty 
+    if(0 -eq (get-childitem -path $relativeUrl).count)
+    {
+        Remove-Item -path $relativeUrl -recurse -force
+    }
+
+}
+}
+
+$MainDirectory= '.\src\components\'
+$response= read-host "Do you want to remove empty directories before exection ? `nPress 1 for Yes. `nPress 2 for No.`n "
+if($response -eq 1 )
+{
+    removeEmptyDirectories -path $MainDirectory
+    write-host "Done Successfully Removed the Empty Directories"
+}
 $fileName= ".\src\components\routerPath.js"
 if(Test-Path $fileName)
 {
 Remove-Item -Path $fileName
 }
 
-$list = (get-childitem -file -recurse -path '.\src\components') | Select-Object -Property PSPath
+$list_of_directories = (get-childitem -directory -path $MainDirectory) | Select-Object -Property Name
 $routerPath=@{}
 
-foreach($items in $list)
+foreach($directory in $list_of_directories)
 {
-    $path = $items.PSPath
-    $directoryName= "components"
-    $lastIndex= $path.LastIndexOf($directoryName)
-    $updatedPath= $path.Substring($lastIndex+$directoryName.Length)
-    $updatedPath =$updatedPath.replace("\","/").insert(0,".")
-    $updatedPath =$updatedPath.Substring(0,$updatedPath.LastIndexOf("."))
-    $key= $updatedPath.remove(0,1)
-    if($key -eq "/main")
-    {    }
-    else
-    {
-       $routerPath.Add($key,$updatedPath)
-}
+    $updatedName= "/"+ $directory.Name + "/"
+    
+    $key= $updatedName
+    $finalPath= $updatedName.insert(0,".")
+
+    # store the path in the form of dictionary or hash table
+    $routerPath.Add($key,$finalPath)
+   # $routerPath.Add($name+"/index.jsx","./"+$name+"/index.jsx")
+    
 }
 
 # second step
