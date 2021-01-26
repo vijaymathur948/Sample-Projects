@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Microsoft",
+    "items": [
+      "DirectAccess Connectivity Assistant",
+      "Disable SMB Compression",
+      "Microsoft Edge for Business",
+      "Edge Chromium Blocker Toolkit",
+      "Enhanced Mitigation Experience Toolkit",
+      "Forefront Endpoint Protection 2010",
+      "Forefront Identity Manager 2010 R2",
+      "Group Policy Preference Client Side Extensions",
+      "Azure Hybrid Connection Manager",
+      "Hide Specified Drives",
+      "Internet Explorer",
+      "IPv6 Group Policy",
+      "Set NetBIOS Node Type (KB160177)",
+      "Key Management Service",
+      "Local Administrator Password Solution (LAPS)",
+      "Microsoft Desktop Optimization Pack Group Policy Administrative Templates",
+      "NetBanner",
+      "Microsoft Office 2007",
+      "Microsoft Office 2010",
+      "Microsoft Office 2013",
+      "Microsoft Office 365 ProPlus, Office 2019, Office 2016",
+      "OneDrive for Business Next Generation Sync Client",
+      "OneNote Class Notebook",
+      "Windows Small Business Server",
+      "System Center Configuration Manager",
+      "Secure Channel",
+      "System Center Operations Manager / Microsoft Monitoring Agent",
+      "System Center Operations Manager — Agentless Exception Monitoring",
+      "System Center Operations Manager — Management Server Tweaker",
+      "Microsoft Security Compliance Toolkit",
+      "Windows Security Baseline",
+      "Silverlight",
+      "System Center Endpoint Protection",
+      "Virtual Machine Manager Administrator Console",
+      "Windows 10 Telemetry Group Policy Pack",
+      "Windows 7 and Windows Server 2008 R2",
+      "Windows 8.1 and Windows Server 2012 R2",
+      "Windows 10 and Windows Server 2016",
+      "Help for Windows (WinHlp32.exe)"
+    ]
+  },
+  {
+    "title": "Citrix",
+    "items": [
+      "Connection Quality Indicator",
+      "Citrix Files",
+      "Citrix Workspace",
+      "Federated Authentication Service (FAS)",
+      "Citrix Receiver",
+      "Citrix ShareFile",
+      "Citrix XenApp and XenDesktop",
+      "Citrix ShareFile Drive Mapper",
+      "Workspace Environment Management"
+    ]
+  },
+  {
+    "title": "Lenovo",
+    "items": [
+      "Lenovo ThinkVantage Access Connections",
+      "Lenovo AutoLock",
+      "Lenovo Power Manager",
+      "Lenovo Privacy Guard",
+      "Lenovo Settings for Enterprise"
+    ]
+  },
+  {
+    "title": "Google",
+    "items": [
+      "Google Chrome",
+      "Google Chrome OS",
+      "Google Docs",
+      "Google Update",
+      "Chrome Reporting Extension"
+    ]
+  },
+  {
+    "title": "VMware",
+    "items": [
+      "VMware Dynamic Environment Manager",
+      "VMware ThinApp Enterprise",
+      "VMware Horizon 6 View RDSH Services",
+      "VMware Horizon 7 Enterprise",
+      "VMware User Environment Manager (UEM) FlexEngine"
+    ]
+  },
+  {
+    "title": "Cjwdev",
+    "items": [
+      "Active Directory Account Reset Tool",
+      "Active Directory Reporting Tool",
+      "Active Directory Group Manager"
+    ]
+  },
+  {
+    "title": "Tracker Software",
+    "items": ["PDF-Tools", "PDF-XChange Editor", "Tracker Updater"]
+  },
+  { "title": "Adobe", "items": ["Adobe Acrobat", "Adobe Acrobat Reader"] },
+  {
+    "title": "Login Consultants Nederland B.V",
+    "items": ["Base Image Script Framework (BIS-F)", "Login App-V Template"]
+  },
+  {
+    "title": "Bentley",
+    "items": ["Bentley Licensing", "Bentley ProjectWise BRG"]
+  },
+  {
+    "title": "Collabora",
+    "items": ["Collabora Office", "LibreOffice from Collabora"]
+  },
+  {
+    "title": "Binary Fortress Software",
+    "items": ["DisplayFusion", "FileSeek"]
+  },
+  {
+    "title": "Duo Security",
+    "items": [
+      "Duo Authentication for Epic",
+      "Duo Authentication for Windows Logon"
+    ]
+  },
+  {
+    "title": "FSLogix",
+    "items": ["FSLogix Apps Agent", "FSLogix Profile Container"]
+  },
+  {
+    "title": "Mozilla Firefox and Thunderbird",
+    "items": ["Mozilla Firefox", "Mozilla Firefox and Thunderbird"]
+  },
+  { "title": "Community", "items": ["Firefox ADMX", "Firefox CCK2"] },
+  {
+    "title": "Foxit Software Inc.",
+    "items": ["Foxit PhantomPDF", "Foxit Reader"]
+  },
+  {
+    "title": "MailStore Software GmbH",
+    "items": ["MailStore Client", "MailStore Service Provider Edition"]
+  },
+  {
+    "title": "Quest Software",
+    "items": ["Quest One Password Manager", "Quest Software Defender"]
+  },
+  {
+    "title": "Symantec",
+    "items": [
+      "Symantec PKI Client",
+      "Symantec Workspace Virtualization & Workspace Streaming"
+    ]
+  },
+  {
+    "title": "Yubico",
+    "items": ["YubiKey PIV Manager", "YubiKey Smart Card Minidriver"]
+  },
+  { "title": "ALT Linux Team", "items": ["ALT Linux"] },
+  { "title": "CoCo", "items": ["ASSP Toolbar for Outlook"] },
+  { "title": "Basic Bytes", "items": ["Access Director Enterprise"] },
+  { "title": "NoLightPeople", "items": ["NoLightPeople Access Director"] },
+  { "title": "HID Global", "items": ["ActivID ActivClient"] },
+  {
+    "title": "GreyCorbel Solutions",
+    "items": ["Admin Password Management Enterprise"]
+  },
+  { "title": "RSA", "items": ["RSA SecurID Authentication Agent"] },
+  { "title": "Pharmini", "items": ["Blinzle for Business Edition"] },
+  { "title": "Centrify", "items": ["Centrify Group Policy Management"] },
+  { "title": "Classic Shell", "items": ["Classic Shell"] },
+  { "title": "ClickView Player", "items": ["ClickView Player"] },
+  { "title": "Paper Software", "items": ["Contract Tools"] },
+  { "title": "ControlUp Console", "items": ["ControlUp Console"] },
+  { "title": "Copernic", "items": ["Desktop Search by Copernic"] },
+  {
+    "title": "D. Brown Management",
+    "items": ["DBM Tools - D. Brown Management"]
+  },
+  { "title": "Ecosia", "items": ["Ecosia"] },
+  {
+    "title": "Kaspersky",
+    "items": ["Kaspersky Endpoint Security 8 for Smartphone"]
+  },
+  { "title": "ABBYY", "items": ["ABBYY FineReader 15"] },
+  {
+    "title": "FrontMotion Firefox Community Edition",
+    "items": ["FrontMotion Firefox Community Edition"]
+  },
+  { "title": "KnowBe4", "items": ["Google Phish Alert Button (GPAB)"] },
+  { "title": "GoToMeeting", "items": ["GoToMeeting"] },
+  { "title": "Goverlan", "items": ["GoverLAN Suite"] },
+  { "title": "Smartbox Assistive Technology", "items": ["Grid 3"] },
+  { "title": "HP (Hewlett Packard)", "items": ["HP Managed Print Policies"] },
+  { "title": "HealthCast Inc.", "items": ["HealthCast"] },
+  { "title": "Blackfish Software", "items": ["IE Tab"] },
+  { "title": "Lithnet", "items": ["Lithnet Idle Logoff"] },
+  { "title": "Ivanti", "items": ["Ivanti Insight"] },
+  { "title": "Oracle", "items": ["Java Runtime Environment"] },
+  { "title": "LogMeIn", "items": ["LogMeIn"] },
+  { "title": "LyncWizard", "items": ["LyncWizard"] },
+  {
+    "title": "Mattermost Desktop Application",
+    "items": ["Mattermost Desktop Application"]
+  },
+  { "title": "DameWare", "items": ["DameWare Mini Remote Control"] },
+  { "title": "NetSupport", "items": ["NetSupport School"] },
+  { "title": "Net at Work GmbH", "items": ["NoSpamProxy"] },
+  { "title": "Novell", "items": ["Novell Client 2 SP3 for Windows"] },
+  { "title": "One Identity", "items": ["One Identity Defender"] },
+  { "title": "pdfforge GmbH", "items": ["PDFCreator"] },
+  { "title": "SDL", "items": ["SDL Passolo 2016"] },
+  { "title": "CP-Lab", "items": ["Password Manager XP"] },
+  { "title": "Raxco", "items": ["Raxco PerfectDisk"] },
+  { "title": "Sophos", "items": ["Sophos SafeGuard PrivateCrypto"] },
+  { "title": "Liquidware", "items": ["ProfileUnity"] },
+  { "title": "RealVNC", "items": ["RealVNC"] },
+  { "title": "Devolutions", "items": ["Devolutions Remote Desktop Manager"] },
+  { "title": "donkz.nl", "items": ["Remote Desktop Plus"] },
+  { "title": "Royal Applications Team", "items": ["RoyalTS"] },
+  { "title": "SAP", "items": ["SAP 3D Visual Enterprise Viewer"] },
+  {
+    "title": "SafeNet",
+    "items": ["SafeNet Authentication Service Agent for Windows Logon"]
+  },
+  { "title": "SEPPmail AG", "items": ["SEPPmail"] },
+  { "title": "Birch Grove Software", "items": ["ScreenPass"] },
+  { "title": "LEARNPULSE SAS", "items": ["Screenpresso"] },
+  {
+    "title": "Infineon Technologies AG",
+    "items": ["Infineon Security Platform"]
+  },
+  { "title": "SoftMaker", "items": ["SoftMaker Office Professional"] },
+  { "title": "SolarWinds", "items": ["SolarWinds Orion Agent"] },
+  { "title": "EMC", "items": ["EMC SourceOne Offline Access"] },
+  { "title": "Specops", "items": ["Specops Authentication Client"] },
+  { "title": "Stardock", "items": ["Stardock Start8"] },
+  { "title": "ThinPrint", "items": ["ThinPrint"] },
+  { "title": "Veyon Community", "items": ["Veyon"] },
+  { "title": "SparkLabs", "items": ["Viscosity"] },
+  { "title": "Vivaldi Technologies", "items": ["Vivaldi Browser"] },
+  { "title": "WPKG", "items": ["WPKG"] },
+  { "title": "Dojo North Software", "items": ["WindowSMART"] },
+  { "title": "Workshare", "items": ["Workshare Connect for Desktop"] },
+  { "title": "Yandex", "items": ["Yandex Browser"] },
+  { "title": "Zoom Video Communications", "items": ["Zoom Meetings"] },
+  {
+    "title": "iTALC - Intelligent Teaching And Learning with Computers",
+    "items": ["iTALC - Intelligent Teaching And Learning with Computers"]
+  },
+  { "title": "think-cell Sales GmbH", "items": ["think-cell"] },
+  { "title": "uberAgent", "items": ["uberAgent"] }
+]

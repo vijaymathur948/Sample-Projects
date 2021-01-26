@@ -1,0 +1,258 @@
+Microsoft
+DirectAccess Connectivity Assistant
+Disable SMB Compression
+Microsoft Edge for Business
+Edge Chromium Blocker Toolkit
+Enhanced Mitigation Experience Toolkit
+Forefront Endpoint Protection 2010
+Forefront Identity Manager 2010 R2
+Group Policy Preference Client Side Extensions
+Azure Hybrid Connection Manager
+Hide Specified Drives
+Internet Explorer
+IPv6 Group Policy
+Set NetBIOS Node Type (KB160177)
+Key Management Service
+Local Administrator Password Solution (LAPS)
+Microsoft Desktop Optimization Pack Group Policy Administrative Templates
+NetBanner
+Microsoft Office 2007
+Microsoft Office 2010
+Microsoft Office 2013
+Microsoft Office 365 ProPlus, Office 2019, Office 2016
+OneDrive for Business Next Generation Sync Client
+OneNote Class Notebook
+Windows Small Business Server
+System Center Configuration Manager
+Secure Channel
+System Center Operations Manager / Microsoft Monitoring Agent
+System Center Operations Manager — Agentless Exception Monitoring
+System Center Operations Manager — Management Server Tweaker
+Microsoft Security Compliance Toolkit
+Windows Security Baseline
+Silverlight
+System Center Endpoint Protection
+Virtual Machine Manager Administrator Console
+Windows 10 Telemetry Group Policy Pack
+Windows 7 and Windows Server 2008 R2
+Windows 8.1 and Windows Server 2012 R2
+Windows 10 and Windows Server 2016
+Help for Windows (WinHlp32.exe)
+Citrix
+Connection Quality Indicator
+Citrix Files
+Citrix Workspace
+Federated Authentication Service (FAS)
+Citrix Receiver
+Citrix ShareFile
+Citrix XenApp and XenDesktop
+Citrix ShareFile Drive Mapper
+Workspace Environment Management
+Lenovo
+Lenovo ThinkVantage Access Connections
+Lenovo AutoLock
+Lenovo Power Manager
+Lenovo Privacy Guard
+Lenovo Settings for Enterprise
+Google
+Google Chrome
+Google Chrome OS
+Google Docs
+Google Update
+Chrome Reporting Extension
+VMware
+VMware Dynamic Environment Manager
+VMware ThinApp Enterprise
+VMware Horizon 6 View RDSH Services
+VMware Horizon 7 Enterprise
+VMware User Environment Manager (UEM) FlexEngine
+Cjwdev
+Active Directory Account Reset Tool
+Active Directory Reporting Tool
+Active Directory Group Manager
+Tracker Software
+PDF-Tools
+PDF-XChange Editor
+Tracker Updater
+Adobe
+Adobe Acrobat
+Adobe Acrobat Reader
+Login Consultants Nederland B.V
+Base Image Script Framework (BIS-F)
+Login App-V Template
+Bentley
+Bentley Licensing
+Bentley ProjectWise BRG
+Collabora
+Collabora Office
+LibreOffice from Collabora
+Binary Fortress Software
+DisplayFusion
+FileSeek
+Duo Security
+Duo Authentication for Epic
+Duo Authentication for Windows Logon
+FSLogix
+FSLogix Apps Agent
+FSLogix Profile Container
+Mozilla Firefox and Thunderbird
+Mozilla Firefox
+Mozilla Firefox and Thunderbird
+Community
+Firefox ADMX
+Firefox CCK2
+Foxit Software Inc.
+Foxit PhantomPDF
+Foxit Reader
+MailStore Software GmbH
+MailStore Client
+MailStore Service Provider Edition
+Quest Software
+Quest One Password Manager
+Quest Software Defender
+Symantec
+Symantec PKI Client
+Symantec Workspace Virtualization & Workspace Streaming
+Yubico
+YubiKey PIV Manager
+YubiKey Smart Card Minidriver
+ALT Linux Team
+ALT Linux
+CoCo
+ASSP Toolbar for Outlook
+Basic Bytes
+Access Director Enterprise
+NoLightPeople
+NoLightPeople Access Director
+HID Global
+ActivID ActivClient
+GreyCorbel Solutions
+Admin Password Management Enterprise
+RSA
+RSA SecurID Authentication Agent
+Pharmini
+Blinzle for Business Edition
+Centrify
+Centrify Group Policy Management
+Classic Shell
+Classic Shell
+ClickView Player
+ClickView Player
+Paper Software
+Contract Tools
+ControlUp Console
+ControlUp Console
+Copernic
+Desktop Search by Copernic
+D. Brown Management
+DBM Tools - D. Brown Management
+Ecosia
+Ecosia
+Kaspersky
+Kaspersky Endpoint Security 8 for Smartphone
+ABBYY
+ABBYY FineReader 15
+FrontMotion Firefox Community Edition
+FrontMotion Firefox Community Edition
+KnowBe4
+Google Phish Alert Button (GPAB)
+GoToMeeting
+GoToMeeting
+Goverlan
+GoverLAN Suite
+Smartbox Assistive Technology
+Grid 3
+HP (Hewlett Packard)
+HP Managed Print Policies
+HealthCast Inc.
+HealthCast
+Blackfish Software
+IE Tab
+Lithnet
+Lithnet Idle Logoff
+Ivanti
+Ivanti Insight
+Oracle
+Java Runtime Environment
+LogMeIn
+LogMeIn
+LyncWizard
+LyncWizard
+Mattermost Desktop Application
+Mattermost Desktop Application
+DameWare
+DameWare Mini Remote Control
+NetSupport
+NetSupport School
+Net at Work GmbH
+NoSpamProxy
+Novell
+Novell Client 2 SP3 for Windows
+One Identity
+One Identity Defender
+pdfforge GmbH
+PDFCreator
+SDL
+SDL Passolo 2016
+CP-Lab
+Password Manager XP
+Raxco
+Raxco PerfectDisk
+Sophos
+Sophos SafeGuard PrivateCrypto
+Liquidware
+ProfileUnity
+RealVNC
+RealVNC
+Devolutions
+Devolutions Remote Desktop Manager
+donkz.nl
+Remote Desktop Plus
+Royal Applications Team
+RoyalTS
+SAP
+SAP 3D Visual Enterprise Viewer
+SafeNet
+SafeNet Authentication Service Agent for Windows Logon
+SEPPmail AG
+SEPPmail
+Birch Grove Software
+ScreenPass
+LEARNPULSE SAS
+Screenpresso
+Infineon Technologies AG
+Infineon Security Platform
+SoftMaker
+SoftMaker Office Professional
+SolarWinds
+SolarWinds Orion Agent
+EMC
+EMC SourceOne Offline Access
+Specops
+Specops Authentication Client
+Stardock
+Stardock Start8
+ThinPrint
+ThinPrint
+Veyon Community
+Veyon
+SparkLabs
+Viscosity
+Vivaldi Technologies
+Vivaldi Browser
+WPKG
+WPKG
+Dojo North Software
+WindowSMART
+Workshare
+Workshare Connect for Desktop
+Yandex
+Yandex Browser
+Zoom Video Communications
+Zoom Meetings
+iTALC - Intelligent Teaching And Learning with Computers
+iTALC - Intelligent Teaching And Learning with Computers
+think-cell Sales GmbH
+think-cell
+uberAgent
+uberAgent
