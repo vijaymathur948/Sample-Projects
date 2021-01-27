@@ -12,6 +12,10 @@
     {
       "name": "styled-components",
       "description": "a module for react to work with css  "
+    },
+    {
+      "name": "style-it",
+      "description": "a module for react if you want to modify existing classes  "
     }
   ],
   "server": [

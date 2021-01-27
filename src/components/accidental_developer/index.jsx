@@ -9,7 +9,8 @@ class index extends Component {
       referenceUrl:
         "https://osric.com/chris/accidental-developer/2016/04/powershell-ellipsis-dot-dot-dot/",
       developer: "Vijay Mathur",
-      createdAt: "16-1-2021",
+      createdAt: "16-01-2021",
+      completedAt: "20-01-2021",
     }
   }
   getLinks() {

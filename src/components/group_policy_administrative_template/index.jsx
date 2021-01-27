@@ -1,30 +1,101 @@
 import React, { Component } from "react"
-import styled from "styled-components"
-import { Navbar, Button, Card, ListGroup, Row, Col } from "react-bootstrap"
+import {
+  Navbar,
+  Button,
+  Card,
+  ListGroup,
+  Row,
+  Col,
+  Modal,
+} from "react-bootstrap"
 import icons from "glyphicons"
 import data from "./links.json"
+import Style from "style-it"
 
 class index extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      showModal: false,
+      modalInput: "",
+    }
+    this.handleModalInput = this.handleModalInput.bind()
+    this.resetModalInput = this.resetModalInput.bind()
+  }
+  handleModalInput = value => {
+    this.setState({ modalInput: value })
+  }
+  resetModalInput = () => {
+    this.setState({ modalInput: "" })
+  }
+
+  handleModalShow = () => {
+    this.setState({ showModal: true })
+  }
+  handleModalClose = () => {
+    this.setState({ showModal: false })
+  }
+
   projectInfo() {
     return {
       projectTitle: "Group Policy Templates",
       projectDescription: "A simple template for collections of items",
       referenceUrl: "https://admx.help/",
       developer: "Vijay Mathur",
-      createdAt: "24-1-2021",
+      createdAt: "24-01-2021",
+      completedAt: "27-01-2021",
     }
   }
   navbar() {
     return (
       <Navbar
         variant='dark'
+        className='justify-content-between'
         style={{ backgroundColor: "rgb(39,128,227)", height: "60px" }}
       >
-        <Navbar.Brand>
+        <Navbar.Brand href={this.projectInfo()?.referenceUrl}>
           <span style={{ fontSize: "30px" }}>{icons.home}</span>
           <span style={{ fontSize: "15px" }}>Group Policy Home</span>
         </Navbar.Brand>
-        <Button>{icons.magnifyingGlass}</Button>
+
+        <Button variant='light' size='lg' onClick={this.handleModalShow}>
+          Search
+        </Button>
+
+        <Modal
+          show={this.state.showModal}
+          onHide={this.handleModalClose}
+          size='lg'
+        >
+          <Modal.Header closeButton={true}>
+            <Modal.Title>
+              Search in Group Policy Administrative Templates
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <input
+                type='text'
+                style={{ width: "88%" }}
+                placeholder='ENHANCED BY Google'
+                onChange={e => this.handleModalInput(e.target.value)}
+                value={this.state.modalInput}
+              />
+              <Button
+                onClick={() => {
+                  alert(this.state.modalInput)
+                  console.log(this.state.modalInput)
+                  this.resetModalInput()
+                }}
+              >
+                Search
+              </Button>
+            </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button onClick={this.handleModalClose}>Close</Button>
+          </Modal.Footer>
+        </Modal>
       </Navbar>
     )
   }

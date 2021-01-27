@@ -39,7 +39,7 @@ class main extends Component {
                 <div>
                   <Link
                     to={key}
-                    target='_target'
+                    target='_next'
                     className='btn btn-outline-light mr-3'
                   >
                     Sample Component
@@ -48,7 +48,7 @@ class main extends Component {
                     href={
                       routesList[key]?.prototype?.projectInfo()?.referenceUrl
                     }
-                    target='_target'
+                    target='_next'
                     className='btn btn-outline-light'
                   >
                     Original Component
