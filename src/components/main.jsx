@@ -74,6 +74,15 @@ class main extends Component {
                             ?.createdAt}
                       </big>
                     </b>
+                    <br />
+                    <b>
+                      <big>
+                        Completed At :
+                        {" " +
+                          routesList[object.path]?.prototype?.projectInfo()
+                            ?.completedAt}
+                      </big>
+                    </b>
                   </p>
                 </Card.Text>
                 <div>
