@@ -11,6 +11,33 @@ class main extends Component {
     Object.keys(routesList).map((key, index) => window.open(key, key))
   }
   render() {
+    var sortedRoutes = []
+    Object.keys(routesList).map(key => {
+      var dateString = routesList[key].prototype
+        .projectInfo()
+        .createdAt.split("-")
+
+      // date should be in this format eg: 28-01-2021
+      var dateObject = new Date()
+      dateObject.setFullYear(
+        dateString[2], // representing year
+        dateString[1], // representing month
+        dateString[0] // representing date
+      )
+      var obj = {
+        path: key,
+        value: dateObject,
+      }
+
+      sortedRoutes.push(obj)
+      return 0
+    })
+    sortedRoutes.sort((a, b) => {
+      if (a.value < b.value) return 1
+      if (a.value > b.value) return -1
+      return 0
+    })
+
     return (
       <div>
         <Navbar bg='dark' variant='dark'>
@@ -20,25 +47,28 @@ class main extends Component {
           </Navbar.Brand>
         </Navbar>
         <CardColumns className='mt-3'>
-          {Object.keys(routesList).map((key, index) => (
+          {sortedRoutes.map((object, index) => (
             <Card bg='dark' text='white' className='text-center' key={index}>
               <Card.Body>
                 <h1>
                   <Badge variant='success'>{index + 1}</Badge>
                 </h1>
                 <Card.Title>
-                  {routesList[key]?.prototype?.projectInfo()?.projectTitle}
+                  {
+                    routesList[object.path]?.prototype?.projectInfo()
+                      ?.projectTitle
+                  }
                   's Projects
                 </Card.Title>
                 <Card.Text>
                   {
-                    routesList[key]?.prototype?.projectInfo()
+                    routesList[object.path]?.prototype?.projectInfo()
                       ?.projectDescription
                   }
                 </Card.Text>
                 <div>
                   <Link
-                    to={key}
+                    to={object.path}
                     target='_next'
                     className='btn btn-outline-light mr-3'
                   >
@@ -46,7 +76,8 @@ class main extends Component {
                   </Link>
                   <a
                     href={
-                      routesList[key]?.prototype?.projectInfo()?.referenceUrl
+                      routesList[object.path]?.prototype?.projectInfo()
+                        ?.referenceUrl
                     }
                     target='_next'
                     className='btn btn-outline-light'
