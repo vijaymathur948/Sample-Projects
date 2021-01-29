@@ -65,6 +65,16 @@ class main extends Component {
                     routesList[object.path]?.prototype?.projectInfo()
                       ?.projectDescription
                   }
+                  <p>
+                    <b>
+                      <big>
+                        Created At :
+                        {" " +
+                          routesList[object.path]?.prototype?.projectInfo()
+                            ?.createdAt}
+                      </big>
+                    </b>
+                  </p>
                 </Card.Text>
                 <div>
                   <Link
