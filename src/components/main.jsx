@@ -53,37 +53,37 @@ class main extends Component {
                 <h1>
                   <Badge variant='success'>{index + 1}</Badge>
                 </h1>
-                <Card.Title>
+                <Card.Title style={{ fontSize: "20px" }}>
                   {
                     routesList[object.path]?.prototype?.projectInfo()
                       ?.projectTitle
                   }
                   's Projects
                 </Card.Title>
-                <Card.Text>
+                <Card.Text style={{ fontSize: "15px" }}>
                   {
                     routesList[object.path]?.prototype?.projectInfo()
                       ?.projectDescription
                   }
-                  <p>
-                    <b>
-                      <big>
-                        Created At :
-                        {" " +
-                          routesList[object.path]?.prototype?.projectInfo()
-                            ?.createdAt}
-                      </big>
-                    </b>
-                    <br />
-                    <b>
-                      <big>
-                        Completed At :
-                        {" " +
-                          routesList[object.path]?.prototype?.projectInfo()
-                            ?.completedAt}
-                      </big>
-                    </b>
-                  </p>
+                  <br />
+                  <b>
+                    <big>
+                      Created At :
+                      {" " +
+                        routesList[object.path]?.prototype?.projectInfo()
+                          ?.createdAt}
+                    </big>
+                  </b>
+                  <br />
+                  <b>
+                    <big>
+                      Completed At :
+                      {" " +
+                        routesList[object.path]?.prototype?.projectInfo()
+                          ?.completedAt}
+                    </big>
+                  </b>
+                  <br />
                 </Card.Text>
                 <div>
                   <Link
