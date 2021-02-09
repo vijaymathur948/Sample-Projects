@@ -1,6 +1,14 @@
 import React, { Component } from "react"
 import logo from "../logo.svg"
-import { Card, Navbar, CardColumns, Badge } from "react-bootstrap"
+import {
+  Card,
+  Navbar,
+  CardColumns,
+  Row,
+  Col,
+  Badge,
+  Button,
+} from "react-bootstrap"
 import { Link } from "react-router-dom"
 import routerPath from "./routerPath"
 
@@ -39,16 +47,21 @@ class main extends Component {
     })
 
     return (
-      <div>
+      <div className='m-2'>
         <Navbar bg='dark' variant='dark'>
           <Navbar.Brand>
             <img alt='' src={logo} width='30' height='30' /> REACT BASED SAMPLES
             PROJECTS
           </Navbar.Brand>
         </Navbar>
-        <CardColumns className='mt-3'>
+        <Row>
           {sortedRoutes.map((object, index) => (
-            <Card bg='dark' text='white' className='text-center' key={index}>
+            <Card
+              bg='dark'
+              text='white'
+              className='text-center m-4'
+              key={index}
+            >
               <Card.Body>
                 <h1>
                   <Badge variant='success'>{index + 1}</Badge>
@@ -85,10 +98,10 @@ class main extends Component {
                   </b>
                   <br />
                 </Card.Text>
-                <div>
+                <div style={{ display: "flex" }}>
                   <Link
                     to={object.path}
-                    target='_next'
+                    target='_blank'
                     className='btn btn-outline-light mr-3'
                   >
                     Sample Component
@@ -98,7 +111,8 @@ class main extends Component {
                       routesList[object.path]?.prototype?.projectInfo()
                         ?.referenceUrl
                     }
-                    target='_next'
+                    target='_blank'
+                    rel='noreferrer'
                     className='btn btn-outline-light'
                   >
                     Original Component
@@ -107,7 +121,7 @@ class main extends Component {
               </Card.Body>
             </Card>
           ))}
-        </CardColumns>
+        </Row>
       </div>
     )
   }
