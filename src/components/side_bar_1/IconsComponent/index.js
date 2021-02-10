@@ -6,7 +6,7 @@ import { MapIcons } from "../Icons"
 const IconsComponent = () => {
   const mapObject = MapIcons()
   return (
-    <div style={{ marginTop: "60px" }}>
+    <div className='mt-2'>
       <IconContext.Provider
         value={{
           style: {
