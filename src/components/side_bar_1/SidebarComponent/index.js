@@ -13,7 +13,7 @@ const sidebar = props => {
           color: "orange",
           fontSize: "70px",
           fontWeight: "bold",
-          marginTop: "30px",
+
           textDecoration: "none",
         }}
       >
@@ -23,7 +23,7 @@ const sidebar = props => {
       <h5 style={{ fontWeight: "400", fontSize: "25px" }}>
         {PROFILE.designation}
       </h5>
-      <div style={{ display: "inline-grid", marginTop: "30px" }}>
+      <div style={{ display: "inline-grid" }} className='mt-2'>
         {links.map((item, index) => {
           return (
             <Button
@@ -31,7 +31,7 @@ const sidebar = props => {
                 window.location.href =
                   window.location.origin + window.location.pathname + item.url
               }}
-              className='m-2'
+              className='mt-2'
               variant='outline-dark'
               style={{
                 color: "white",
